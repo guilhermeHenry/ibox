@@ -1,0 +1,91 @@
+.jsMenuOptions{cursor: pointer;}
+
+/* ***** OPTIONS */
+#options{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, .5);
+	display: flex;
+	z-index: 99;
+}
+#options .container{
+	display: flex;
+	flex-direction: row;
+
+	width: 800px;
+	margin: auto;
+	display: block;
+	display: flex;
+	background-color: white;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+#options article{
+	width: 100%;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+}
+
+#options .option-item{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid #eee;
+}
+
+#options .group{display: flex; border-top: 1px solid #eee;}
+#options .group .option-item{border-top: 0; border-right: 1px solid #eee;}
+#options .group .option-item:last-child{border-right: 0;}
+
+#options .option-item:first-child{border-top: 0;}
+#options .option-btn{padding: 15px 0; text-align: center; cursor: pointer;}
+#options h1{font-size: 18px; text-align: center; padding: 15px 0 0 0; font-weight: 500;}
+
+#options .option-item .box{
+	padding: 5px 0;
+	background-color: #f6f6f6;
+	border-top: 0;
+	border-top: 1px solid #eee;
+}
+
+#options .paragraph{
+	padding: 10px;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+	border-top: 1px solid #e4e4e4;
+	margin-top: 10px;
+}
+
+#options .option-item strong{
+	font-size: 12px;
+	font-weight: 500;
+	color: #666;
+	padding: 0 5px 10px 5px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#options .option-item form{display: flex; flex-direction: column;}
+#options .option-item .item{width: 100%; display: grid; grid-template-columns: 80px 1fr; padding: 0 10px; align-items: center;}
+#options .option-item .item input{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
